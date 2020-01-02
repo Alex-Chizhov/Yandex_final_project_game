@@ -22,22 +22,22 @@ main.addEventListener( 'click', function(event) {
 
             if (first_emoji === second_emoji){
 
-                first_card_back.style.backgroundColor = "#5FD573";
-                second_card_back.style.backgroundColor = "#5FD573";
-                first_card_back.parentNode.style.borderColor  = "#5FD573";
-                second_card_back.parentNode.style.borderColor  = "#5FD573";
-                first_card_back.parentNode.style.backgroundColor  = "#5FD573";
-                second_card_back.parentNode.style.backgroundColor  = "#5FD573";
+                first_card_back.style.backgroundColor = "#5AD66F";
+                second_card_back.style.backgroundColor = "#5AD66F";
+                first_card_back.parentNode.style.borderColor  = "#5AD66F";
+                second_card_back.parentNode.style.borderColor  = "#5AD66F";
+                first_card_back.parentNode.style.backgroundColor  = "#5AD66F";
+                second_card_back.parentNode.style.backgroundColor  = "#5AD66F";
 
 
             } else if (first_emoji !== second_emoji) {
 
-                first_card_back.style.backgroundColor = "red";
-                second_card_back.style.backgroundColor = "red";
-                first_card_back.parentNode.style.borderColor  = "red";
-                second_card_back.parentNode.style.borderColor  = "red";
-                first_card_back.parentNode.style.backgroundColor  = "red";
-                second_card_back.parentNode.style.backgroundColor  = "red";
+                first_card_back.style.backgroundColor = "#F44336";
+                second_card_back.style.backgroundColor = "#F44336";
+                first_card_back.parentNode.style.borderColor  = "#F44336";
+                second_card_back.parentNode.style.borderColor  = "#F44336";
+                first_card_back.parentNode.style.backgroundColor  = "#F44336";
+                second_card_back.parentNode.style.backgroundColor  = "#F44336";
             }
 
         } else if (first_card_back !== undefined && second_card_back !== undefined) {
